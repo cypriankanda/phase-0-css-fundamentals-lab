@@ -2,4 +2,61 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: #cccccc; /* Change to any color you prefer */
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #aaaaaa; /* Hover effect */
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property figure {
+  margin: 0 auto;
+}
+
+#featured-property img {
+  width: 900px;
+  height: auto;
+}
+
+#featured-property figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+#featured-property p {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #ff0000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#details div h3 {
+  margin-bottom: 10px;
 }
